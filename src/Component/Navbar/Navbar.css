@@ -1,0 +1,135 @@
+.navbar {
+    width: 100%;
+    height: fit-content;
+    border-bottom: 2px rgb(235, 232, 232) solid; /* Light border */
+}
+
+
+
+
+/* Promo Banner Section */
+.promo-banner {
+    padding: 15px 10% 15px 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Promo Text */
+.promo-text {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.promo-text a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/*  Language Selector Dropdown */
+.language-selector {
+    font-weight: bold;
+}
+
+.language-selector select {
+    padding: 5px 10px;
+    border: 2px solid black; 
+    font-size: 14px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    outline: none;
+}
+
+.language-selector select:focus {
+    border: 2px solid black;
+}
+
+.language-selector select option {
+    background-color: black;
+    color: white;
+    border: black 2px solid;
+}
+
+
+
+
+
+
+/* Navigation Container */
+.nav-container {
+    width: 90%;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Brand Logo */
+.brand-logo {
+    width: 30%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Search Bar */
+.search-bar{
+    width: 15%;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-bar input {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Icons Styles */
+.nav-icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.nav-icons svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Active Navigation Item */
+.nav-item.active {
+    color:  #929191;
+}

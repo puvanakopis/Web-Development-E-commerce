@@ -1,0 +1,127 @@
+.footer {
+    background-color: black;
+    color: white; 
+    padding: 50px 5% 20px 5%; 
+    width: 90%; 
+    font-family: Arial, sans-serif; 
+}
+
+
+
+
+/* Container for footer sections */
+.footer-container {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* Style for each footer section */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+/* subscribe box style */
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.subscribe-box input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    color: white; 
+    outline: none;
+}
+
+.subscribe-btn {
+    background: white;
+    color: black;
+    border: none; 
+    padding: 8px 12px;
+    cursor: pointer; 
+}
+
+/* Style for footer list */
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    font-size: 14px; 
+    margin-bottom: 6px; 
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+.footer-list li:hover {
+    color: yellow; 
+}
+
+
+/* Layout for QR code and app store buttons */
+.qr-and-store {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+/* App store button images */
+.app-buttons img {
+    width: 120px;
+    display: block; 
+    margin-bottom: 8px; 
+}
+
+/* Social icons container */
+.social-icons {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    width: 80%; 
+    margin-top: 10px; 
+    font-size: 18px; 
+}
+
+.social-icons svg:hover {
+    color: yellow; 
+}
+
+
+
+/* Footer bottom section */
+.footer-bottom {
+    text-align: center; 
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    font-size: 14px; 
+    margin-top: 20px; 
+    color: rgb(122, 122, 122); 
+}
+
+/* Brown text color for footer text */
+.text-brown{
+    color: rgb(145, 144, 144);
+}
