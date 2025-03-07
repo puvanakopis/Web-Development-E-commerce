@@ -1,0 +1,14 @@
+.paymentCard{
+    padding-bottom: 5%;
+    column-gap: 1%;
+}
+.paymentCard p{
+    padding-bottom: 2%;
+}
+
+.paymentActions{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+

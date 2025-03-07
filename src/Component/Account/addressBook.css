@@ -1,0 +1,29 @@
+.address-item p{
+    padding: 5px 0; 
+}
+
+.address-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addressDetails{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.country{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f6f5f5;
+}
+
+.country:focus{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f6f5f5;
+    outline: none;
+}

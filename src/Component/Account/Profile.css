@@ -1,0 +1,34 @@
+.mainDetails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+
+/* Form action buttons */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+}
+
+.save-button {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background: #c9302c;
+}
+

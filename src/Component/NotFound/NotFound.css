@@ -1,0 +1,21 @@
+.notfound-container {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: fit-content;
+}
+
+.notfound-title {
+    font-size: 80px;
+}
+
+.notfound-message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.mainButton{
+ background-color: #DB4444;   
+}
