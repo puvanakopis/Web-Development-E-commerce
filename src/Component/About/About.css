@@ -1,0 +1,204 @@
+.about-section {
+    margin: 5% 0;
+}
+
+
+
+
+
+
+
+/* ------------------ Story Section ------------------ */
+.about-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8%;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content h1 {
+    font-size: 60px;
+    padding-bottom: 5%;
+}
+
+.about-content p {
+    padding-bottom: 2%;
+    margin-right: 10%;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------ Statistics Section ------------------ */
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 8%;
+}
+
+.stats-card {
+    width: 18%;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+}
+
+.stats-icon {
+    width: fit-content;
+    background-color: black;
+    padding: 10px;
+    border-radius: 500px;
+    aspect-ratio: 1 / 1;
+    border: #929292 8px solid;
+}
+
+.stats-highlight {
+    background-color: #DB4444;
+    color: white;
+    box-shadow: 10px 10px 20px #ccc;
+}
+
+.stats-highlight .stats-icon {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 500px;
+    aspect-ratio: 1 / 1;
+    border: #e17474 8px solid;
+}
+
+
+
+
+
+
+/* ------------------ Team Section  ------------------ */
+.team-container {
+    margin: 0 8% 5% 8%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 20px;
+}
+
+/* Swiper Slide */
+.team-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Team Member Card */
+.team-member-card {
+    width: 100%;
+    height: fit-content;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Member Image */
+.member-image {
+    width: 350px;
+    height: 400px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 5%;
+}
+
+/* Member Details */
+.member-details {
+    padding-bottom: 20px;
+}
+
+.member-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.member-role {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icons svg:hover {
+    color: black !important;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ------------------ Services Section ------------------ */
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 15% 10% 15%;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-icon {
+    width: fit-content;
+    background-color: black;
+    padding: 10px;
+    border-radius: 500px;
+    aspect-ratio: 1 / 1;
+    border: #929292 8px solid;
+}
+
+.service-card h1 {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}

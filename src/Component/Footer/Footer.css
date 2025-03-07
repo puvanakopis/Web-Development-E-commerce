@@ -17,7 +17,7 @@
 }
 
 
-/* Style for each footer section */
+/* ------------------ Style for each footer section ------------------ */
 .footer-section {
     flex: 1;
     min-width: 200px;
@@ -107,11 +107,12 @@
 
 .social-icons svg:hover {
     color: yellow; 
+    cursor: pointer;
 }
 
 
 
-/* Footer bottom section */
+/* ------------------ Footer bottom section ------------------ */
 .footer-bottom {
     text-align: center; 
     padding-top: 20px;

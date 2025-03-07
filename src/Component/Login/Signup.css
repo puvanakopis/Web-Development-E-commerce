@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-/* Section for the signup image */
+/* ------------------ Section for the signup image ------------------ */
 .signup-image {
     width: 50%;
 }
@@ -16,7 +16,7 @@
 }
 
 
-/* Form section for user input  */
+/* ------------------ Form section for user input ------------------ */
 .signup-form {
     width: 30%;
     padding: 10%;
