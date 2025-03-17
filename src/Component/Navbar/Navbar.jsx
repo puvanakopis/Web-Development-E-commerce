@@ -55,7 +55,7 @@ const Navbar = () => {
       {/* Navigation Container */}
       <div className="nav-container">
         {/* Brand Logo */}
-        <h2 className="brand-logo">Exclusive</h2>
+        <h2 className="brand-logo" onClick={() => handleNavigate("/")}>Exclusive</h2>
         
         {/* Navigation Links */}
         <ul className="nav-links">

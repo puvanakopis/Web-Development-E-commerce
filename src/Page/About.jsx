@@ -2,21 +2,21 @@ import React from 'react'
 import './About.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import aboutImage from '../../assets/about/Side Image.png'
-import sellersIcon from '../../assets/about/Group1.png'
-import salesIcon from '../../assets/about/Group3.png'
-import customersIcon from '../../assets/about/Group4.png'
-import revenueIcon from '../../assets/about/Group2.png'
+import aboutImage from '../assets/about/Side Image.png'
+import sellersIcon from '../assets/about/Group1.png'
+import salesIcon from '../assets/about/Group3.png'
+import customersIcon from '../assets/about/Group4.png'
+import revenueIcon from '../assets/about/Group2.png'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import person1 from '../../assets/about/person1.png'
-import person2 from '../../assets/about/person2.png'
-import person3 from '../../assets/about/person3.png'
+import person1 from '../assets/about/person1.png'
+import person2 from '../assets/about/person2.png'
+import person3 from '../assets/about/person3.png'
 
-import customerServiceIcon from '../../assets/about/Icon-Customer service.png'
-import secureIcon from '../../assets/about/Icon-secure.png'
-import deliveryIcon from '../../assets/about/icon-delivery.png'
+import customerServiceIcon from '../assets/about/Icon-Customer service.png'
+import secureIcon from '../assets/about/Icon-secure.png'
+import deliveryIcon from '../assets/about/icon-delivery.png'
 
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -33,12 +33,12 @@ const About = () => {
     { name: "Emma Watson", role: "Managing Director", img: person2 },
     { name: "Will Smith", role: "Product Designer", img: person3 },
   ];
-  
+
   return (
     <div className='about-section'>
-      
 
-   
+
+
 
 
       {/* Story Section */}
@@ -78,36 +78,47 @@ const About = () => {
         </div>
       </div>
 
-{/* Team Section */}
-<div className="team-container">
-  <Swiper
-    modules={[Pagination, Autoplay]}
-    slidesPerView={3}
-    spaceBetween={30}
-    loop={true}
-    autoplay={{ delay: 3000 }}
-    pagination={{ clickable: true }}
-  >
-    {teamMembers.map((member, index) => (
-      <SwiperSlide key={index} className="team-slide">
-        <div className="team-member-card">
-          <div className="member-image">
-            <img src={member.img} alt={member.name} />
-          </div>
-          <div className="member-details">
-            <h1 className="member-name">{member.name}</h1>
-            <p className="member-role">{member.role}</p>
-            <div className="social-icons">
-              <FaFacebookF />
-              <FaInstagram />
-              <FaXTwitter />
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
-</div>
+
+
+
+
+
+      {/* Team Section */}
+      <div className="team-container">
+        <Swiper
+          modules={[Pagination, Autoplay]}
+          slidesPerView={3}
+          spaceBetween={30}
+          loop={true}
+          autoplay={{ delay: 3000 }}
+          pagination={{ clickable: true }}
+        >
+          {teamMembers.map((member, index) => (
+            <SwiperSlide key={index} className="team-slide">
+              <div className="team-member-card">
+                <div className="member-image">
+                  <img src={member.img} alt={member.name} />
+                </div>
+                <div className="member-details">
+                  <h1 className="member-name">{member.name}</h1>
+                  <p className="member-role">{member.role}</p>
+                  <div className="social-icons">
+                    <FaFacebookF />
+                    <FaInstagram />
+                    <FaXTwitter />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+
+
+
+
+
 
       {/* Services Section */}
       <div className="services-container">

@@ -79,6 +79,7 @@
     width: 30%;
     font-size: 35px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* Navigation Links */

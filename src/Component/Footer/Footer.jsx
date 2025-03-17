@@ -4,6 +4,7 @@ import "./Footer.css";
 import AppStore from '../../assets/footer/AppStore.png'
 import GooglePlay from '../../assets/footer/GooglePlay.png'
 import Qr_Code from '../../assets/footer/Qr Code.png'
+import Vector from '../../assets/footer/Vector.png'
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
@@ -21,7 +22,7 @@ const Footer = () => {
           <p className="footer-text text-brown">Get 10% off your first order</p>
           <div className="subscribe-box">
             <input type="email" placeholder="Enter your email" />
-            <button className="subscribe-btn">➤</button>
+            <button className="subscribe-btn"><img src={Vector} alt="" /></button>
           </div>
         </div>
 

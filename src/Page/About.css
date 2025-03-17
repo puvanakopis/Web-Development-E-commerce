@@ -76,15 +76,16 @@
     border: #929292 8px solid;
 }
 
-.stats-highlight {
+.stats-card:hover {
     background-color: #DB4444;
+    border: 2px solid #DB4444;
     color: white;
     box-shadow: 10px 10px 20px #ccc;
+    transition: all 0.3s ease-in-out;
 }
 
-.stats-highlight .stats-icon {
+.stats-card:hover .stats-icon {
     width: fit-content;
-    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 500px;
     aspect-ratio: 1 / 1;
@@ -186,6 +187,11 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: scale(1.05);
 }
 
 .service-icon {

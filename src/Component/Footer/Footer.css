@@ -50,13 +50,13 @@
     flex: 1;
     padding: 8px;
     border: none;
-    background: transparent;
+    background: black;
     color: white; 
     outline: none;
 }
 
 .subscribe-btn {
-    background: white;
+    background: black !important;
     color: black;
     border: none; 
     padding: 8px 12px;

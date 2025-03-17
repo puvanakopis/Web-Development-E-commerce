@@ -6,11 +6,11 @@ import Payment from './Payment'
 import Returns from './Returns'
 import Cancelled from './Cancelled'
 
-const Contact = () => {
+const Account = () => {
   const [activeSection, setActiveSection] = useState('profile');
 
   return (
-    <div className='contact'>
+    <div className='account'>
 
       {/* ------------------ Sidebar navigation ------------------ */}
       <div className="nav">
@@ -56,4 +56,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Account;
